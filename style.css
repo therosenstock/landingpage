@@ -62,6 +62,9 @@ img{
     color: #e5e7eb;
 
 }
+.nav .nav-links .link:hover{
+    cursor:pointer;
+}
 
 /* Header Content*/
 .header-content{
@@ -94,6 +97,12 @@ img{
     border-radius: 8px;
     width: 132px;
     height: 40px;
+}
+.header-content #sgn-header:hover{
+    cursor: pointer;
+    background-color: #3578e4;
+    transform: ease-in 0.2s;
+
 }
 .header-content .side-content-img .side-img{
     margin-top: 48px;
@@ -152,6 +161,7 @@ img{
 .main-quote .author{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-top: 60px;
 }
 .main-quote .author h3{
@@ -163,12 +173,46 @@ img{
 .main-action{
     background-color: #fff;
     color:#1F2937;
-    padding: 130px 130px 54px 130px;
+    padding: 100px 130px 0 130px;
     width: 100%;
-    height: 550px;
+    height: 350px;
 }
+.main-action .action-block{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    border-radius: 8px;
+    align-items: center;
+}
+.main-action .action-block .action-info{
+    font-size: 18px;
+}
+.main-action #sgn-action{
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #e5e7eb;
+    padding: 8px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-action #sgn-action:hover{
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    background-color: rgba(0,0,0,0.1)
+
+}
+
 /* Footer */
 .footer{
     background-color: #1F2937;
     height: 100px;
+    display: flex;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
